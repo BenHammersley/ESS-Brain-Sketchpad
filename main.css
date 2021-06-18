@@ -26,7 +26,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   /* font-weight: 900; */
-  letter-spacing: 1.5px vertical-align: baseline;
+  letter-spacing: 1.5px;
+  vertical-align: baseline;
   line-height: 1.6;
 }
 
@@ -152,7 +153,7 @@ button {
   cursor: pointer;
 }
 
-.svg-icon : hover {
+.svg-icon hover {
   width: 26px;
 }
 
@@ -194,10 +195,6 @@ button {
   font-family: GT America;
   font-style: normal;
   font-weight: bold;
-}
-
-.round input[type="checkbox"] {
-  /* visibility: hidden; */
 }
 
 .round input[type="checkbox"]:checked+#round-box {
@@ -290,7 +287,7 @@ button {
 
 #user-ctl-bttns {
   position: absolute;
-  z-dex: 100;
+  z-index: 100;
   top: 25px;
   left: 12px;
 }
